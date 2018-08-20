@@ -6,6 +6,7 @@
         {assign var="sRealAmount" value=$sAmount|replace:",":"."}
     {/if}
     <script type="text/javascript">
+        /* <![CDATA[ */
         var google_conversion_id = {$GoogleConversionID},
             google_conversion_language = "{$GoogleConversionLanguage}",
             google_conversion_format = "1",
@@ -14,6 +15,7 @@
             google_conversion_label = "{$GoogleConversionLabel}",
             google_conversion_currency = "EUR",
             google_remarketing_only = false;
+        /* ]]> */
     </script>
     <script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js"></script>
     <noscript>
